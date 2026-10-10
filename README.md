@@ -1,17 +1,49 @@
-# MangaAppCompose-Showcase
+<h1 align="center">MangaApp Compose</h1>
 
-Bu projeyle birlikte modern android teknolojilerinden biri olan "Jetpack Compose" üzerinde pratik yaptım.
+<p align="center">
+  Manga bilgilerini Jikan API'den çekip listeleyen ve favorilere eklemeni sağlayan Android uygulaması.<br>
+  Jetpack Compose ve API kullandığım ilk proje.
+</p>
 
-# PROJE HAKKINDA 
-Uygulama, API aracılığıyla çekilen manga bilgilerini (isim,puan,kısa özet ve devam durumu) listeleyip bunları favorileyebilmenize olanak sağlayan bir platformdur.
-Eklenilen mangalar lokal veritabanına kaydedilir ve kimseyle paylaşılmaz. 
+<p align="center">
+  <a href="https://osmnnuri.github.io"><b>Ekran görüntüleri için siteme göz at</b></a>
+</p>
 
-# KULLANILAN TEKNOLOJİLER 
-Bu uygulamada ilk kez compose yapısını ve API kulandım. 
-- API
-- Compose
-- Local DB
-- AndroidStudio
+---
 
-# KAYNAK KODLAR 
-Proje kaynak kodları özel bir repository'de tutulmaktadır. Gerekli görüldüğü durumlarda iligili kişilerle paylaşılabilir. 
+## Proje hakkında
+
+Uygulama, Jikan API üzerinden çekilen manga bilgilerini listeler ve
+beğendiklerini favorilerine eklemene olanak tanır. Favoriler cihazdaki yerel
+veritabanına kaydedilir ve kimseyle paylaşılmaz.
+
+## Özellikler
+
+| | |
+|---|---|
+| **Manga listesi** | Ad, puan, kısa özet ve devam durumu ile listeleme |
+| **Favoriler** | Serileri favorilere ekleme |
+| **Yerel kayıt** | Favoriler Room ile yalnız cihazda saklanır |
+
+## Kullanılan teknolojiler
+
+| Katman | Teknoloji |
+|---|---|
+| Dil | Kotlin |
+| Arayüz | Jetpack Compose |
+| Veri kaynağı | Jikan API |
+| Yerel veri | Room |
+| Geliştirme ortamı | Android Studio |
+
+## Neden yaptım?
+
+Modern Android arayüz aracı Jetpack Compose üzerinde pratik yapmak ve bir
+API'den veri çekmeyi öğrenmek için.
+
+## Kaynak kod
+
+Kaynak kod özel bir depoda tutuluyor; inceleme için talep üzerine paylaşılabilir.
+
+## İletişim
+
+**osmnnuri** · [Web sitesi](https://osmnnuri.github.io) · [GitHub](https://github.com/osmnnuri) · osmannuriyasar57@gmail.com
